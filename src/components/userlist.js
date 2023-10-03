@@ -18,7 +18,7 @@ const UserList = () => {
     return (
         <Container style={{ paddingTop: "50px",width: '1000px', height: '700px' }}>
             <Row style={{ width: '1000px',marginBottom: '20px' }}>
-                <SummaryCard title="Total Sales" value={`$${totalSales/1000}K`} style={{ flex: 1 }}/>
+                <SummaryCard title="Total Sales" value={`$${totalSales/1000}K`} percentage={50} style={{ flex: 1 }}/>
                 <SummaryCard title="Total Sales" value={`$${totalSales/1000}K`} style={{ flex: 1 }}/>
                 <SummaryCard title="Total Sales" value={`$${totalSales/1000}K`} style={{ flex: 1 }}/>
                 <SummaryCard title="Total Sales" value={`$${totalSales/1000}K`} style={{ flex: 1 }}/>
